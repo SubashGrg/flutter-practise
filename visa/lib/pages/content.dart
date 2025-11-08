@@ -22,7 +22,7 @@ class Content extends StatelessWidget {
           ),
         ),
         Positioned(
-          left: 200,
+          left: -200,
           bottom: -470,
           child: Container(
             height: 600,
