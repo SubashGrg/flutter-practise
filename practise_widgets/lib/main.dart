@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:practise_widgets/alert.dart';
 import 'package:practise_widgets/home_page.dart';
+import 'package:practise_widgets/image.dart';
 import 'package:practise_widgets/music.dart';
 import 'package:practise_widgets/next_page.dart';
 import 'package:practise_widgets/setting.dart';
@@ -27,7 +29,7 @@ class MyApp extends StatelessWidget {
         '/next': (context) => const NextPage(),
       },
 
-      home: const Homepage(),
+      home: const AlertWidget(),
     );
   }
 }
